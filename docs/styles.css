@@ -1,0 +1,56 @@
+body {
+	background: lightgray;
+	max-width: 850px ;
+	margin: auto ;
+	padding: 0 16px ;
+	margin-bottom: 500px ;
+	scrollbar-color: gray #151515;
+	font-family: "Helvetica" ;
+	text-align: center;
+}
+
+
+h1 {
+  color: slateblue;
+  background-color: white;
+  padding: 22px;
+  margin: 40px;
+}
+
+h2 {
+  color: slateblue;
+}
+
+#tagcloud {
+	list-style: none ;
+	text-align: center ;
+	padding: 0 ;
+}
+
+#tagcloud li {
+	display: inline-block ;
+}
+
+#tagcloud a {
+	margin: .1em .25em ;
+}
+
+p {
+  color: dimgray;
+  border: 1px solid black;
+  background-color: white;
+  padding: 22px;
+  margin: 40px;
+}
+
+div, iframe {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+iframe {
+    display: block;
+    border-style: 1;
+}
